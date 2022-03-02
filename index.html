@@ -22,7 +22,7 @@
     <div class="container">
         <form class="col-md-6 m-auto py-5">
             <div class="input-group mb-3">
-                <input id="" type="text" class="form-control" placeholder="Enter a location for Weather ...">
+                <input id="weather-name" type="text" class="form-control" placeholder="Enter a location for Weather ...">
                 <div class="input-group-append">
                     <button id="search-btn" type="button" class="btn btn-dark">Search</button>
                 </div>
@@ -30,9 +30,9 @@
         </form>
         <div class="weather-status text-white text-center">
             <img src="https://openweathermap.org/img/wn/02d@2x.png" alt="">
-            <h1>Dhaka</h1>
-            <h3><span>38.06</span>&deg;C</h3>
-            <h1 class="lead">Clouds</h1>
+            <h1 id="country">Dhaka</h1>
+            <h3><span id="temp">38.06</span>&deg;C</h3>
+            <h1 id="status" class="lead">Clouds</h1>
         </div>
     </div>
 
